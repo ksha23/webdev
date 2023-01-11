@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Restaurant Filter</title>
+    <link rel="icon" type="image/x-icon" href="icon.jpg">
+    <link rel="stylesheet" href="finder.css">
+
+
+    <!-- Include the Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="home.html">Restaurant Finder</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="finder.html">Finder</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 style="text-align:center">Restaurant Finder</h1>
+        <form id="filter-form">
+            <label for="cuisine-select">Cuisine:</label>
+            <select id="cuisine-select" name="cuisine">
+                <option value="all">All</option>
+                <option value="American">American</option>
+                <option value="Chinese">Chinese</option>
+                <option value="Italian">Italian</option>
+                <option value="Mexican">Mexican</option>
+                <option value="Indian">Indian</option>
+                <option value="Seafood">Seafood</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Barbecue">Barbecue</option>
+                <option value="Argentinian">Argentinian</option>
+                <option value="Vietnamese">Vietnamese</option>
+                <option value="Yemeni">Yemeni</option>
+            </select>
+            <br>
+            <label for="price-select">Max Price:</label>
+            <select id="price-select" name="price">
+                <option value="all">All</option>
+                <option value="$">$</option>
+                <option value="$$">$$</option>
+                <option value="$$$">$$$</option>
+                <option value="$$$$">$$$$</option>
+            </select>
+            <br>
+            <label for="rating-select">Minimum Rating:</label>
+            <select id="rating-select" name="rating">
+                <option value="all">All</option>
+                <option value="1">1 star</option>
+                <option value="2">2 stars</option>
+                <option value="3">3 stars</option>
+                <option value="4">4 stars</option>
+                <option value="5">5 stars</option>
+            </select>
+            <br>
+            <!-- <label for="location-input">Location:</label>
+      <input type="text" id="location-input" name="location"> -->
+            <label for="location-input">Location:</label>
+            <select id="location-input" name="location">
+                <option value="all">All</option>
+                <option value="New York">New York</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Mexico City">Mexico City</option>
+                <option value="Devner">Denver</option>
+                <option value="Boston">Boston</option>'
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Tokyo">Tokyo</option>
+                <option value="Asheville">Asheville</option>
+                <option value="Dallas">Dallas</option>
+                <option value="Newark">Newark</option>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="San Francisco">San Francisco</option>
+                <option value="Ho Chi Minh City">Ho Chi Minh City</option>
+                <option value="Sana'a">Sana'a</option>
+            </select>
+            <br>
+            <input type="submit" value="Filter">
+            <br>
+            <button id="resetButton" type="button">Reset</button>
+        </form>
+        <br>
+        <div id="results"></div>
+        <script src="app.js"></script>
+        <script src="reset.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.16.0/dist/umd/popper.min.js"
+            integrity="sha384-M1NRvK8jXXLQ2gF1Jb4H+0I8TjKJh0tPcxO9LKj+3Ia1yhJgOjtjKvR8Ip+zjMkL"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+
+</html>

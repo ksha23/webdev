@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  form {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 25px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    opacity: 1;
+    margin-top: 10px;
+    padding: 10px 50px;
+    background-color: rgb(10, 114, 10);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+  }
+  
+  input[type="submit"]:hover {
+    opacity:0.9;
+    transition: all 0.2s;
+  }
+  
+  #results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    grid-gap: 20px;
+    margin: 30px auto;
+    max-width: 1000px;
+  }
+  
+  .restaurant {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    max-width: 300px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .restaurant h2 {
+    margin: 2px 0;
+    color:rgb(7, 88, 7);
+    padding-bottom: 10px;
+  }
+  
+  .restaurant p {
+    margin: 2px 0;
+    padding:2px;
+  }
+  
+  #resetButton {
+    /* Remove default button styling */
+    background: none;
+    border: none;
+  
+    /* Style the text */
+    color: blue;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor:pointer;
+  }
+  
+  

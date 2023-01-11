@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Joe's Diner",
+    "cuisine": "American",
+    "price": "$$",
+    "rating": 4,
+    "location": "New York"
+  },
+  {
+    "name": "Taco Time",
+    "cuisine": "Mexican",
+    "price": "$",
+    "rating": 3,
+    "location": "Chicago"
+  },
+  {
+    "name": "Ming's Chinese",
+    "cuisine": "Chinese",
+    "price": "$$$",
+    "rating": 5,
+    "location": "New York"
+  },
+  {
+    "name": "Papa's Pizza",
+    "cuisine": "Italian",
+    "price": "$$",
+    "rating": 3,
+    "location": "Chicago"
+  },
+  {
+    "name": "The Burger Joint",
+    "cuisine": "American",
+    "price": "$",
+    "rating": 5,
+    "location": "New York"
+  },
+  {
+    "name": "Mama's Italian Kitchen",
+    "cuisine": "Italian",
+    "price": "$$",
+    "rating": 3,
+    "location": "Chicago"
+  },
+  {
+    "name": "Taj Mahal Palace",
+    "cuisine": "Indian",
+    "price": "$$$$",
+    "rating": 4,
+    "location": "Mumbai"
+  },
+  {
+    "name": "La Fisheria",
+    "cuisine": "Mexican",
+    "price": "$$",
+    "rating": 4,
+    "location": "Mexico City"
+  },
+  {
+    "name": "Noodles and Company",
+    "cuisine": "Asian",
+    "price": "$",
+    "rating": 3,
+    "location": "Denver"
+  },
+  {
+    "name": "The Lobster Boat",
+    "cuisine": "Seafood",
+    "price": "$$$$",
+    "rating": 4,
+    "location": "Boston"
+  },
+  {
+    "name": "The Cheesecake Factory",
+    "cuisine": "American",
+    "price": "$$$$",
+    "rating": 4,
+    "location": "Los Angeles"
+  },
+  {
+    "name": "Sushi Mori",
+    "cuisine": "Japanese",
+    "price": "$$$$",
+    "rating": 5,
+    "location": "Tokyo"
+  },
+  {
+    "name": "Chai Pani",
+    "cuisine": "Indian",
+    "price": "$$",
+    "rating": 3,
+    "location": "Asheville"
+  },
+  {
+    "name": "Barbecue House",
+    "cuisine": "Barbecue",
+    "price": "$$",
+    "rating": 2,
+    "location": "Dallas"
+  },
+  {
+    "name": "The Golden Wok",
+    "cuisine": "Chinese",
+    "price": "$",
+    "rating": 1,
+    "location": "Newark"
+  },
+  {
+    "name": "Risotteria",
+    "cuisine": "Italian",
+    "price": "$$",
+    "rating": 4,
+    "location": "New York"
+  },
+  {
+    "name": "Gaucho Grill",
+    "cuisine": "Argentinian",
+    "price": "$$$$",
+    "rating": 3,
+    "location": "Buenos Aires"
+  },
+  {
+    "name": "The Dumpling House",
+    "cuisine": "Chinese",
+    "price": "$",
+    "rating": 2,
+    "location": "San Francisco"
+  },
+  {
+    "name": "Pho Viet",
+    "cuisine": "Vietnamese",
+    "price": "$",
+    "rating": 5,
+    "location": "Ho Chi Minh City"
+  },
+  {
+    "name": "Mama's Yemeni Kitchen",
+    "cuisine": "Yemeni",
+    "price": "$$",
+    "rating": 4,
+    "location": "Sana'a"
+  }
+  
+  
+]
